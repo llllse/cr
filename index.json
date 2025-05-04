@@ -139,10 +139,10 @@
             "loadUrl": "https://123av.com/zh/${tid}?page=${pg:-1}${filter:-}${sort:-}"
           },
           "detailContent": {
-            "loadUrl": "https://123av.com/zh/v/${id}"
+            "loadUrl": "https://123av.com/zh/${id}"
           },
           "playerContent": {
-            "loadUrl": "https://123av.com/zh/v/${vod_id}"
+            "loadUrl": "https://123av.com/zh/${vod_id}"
           },
           "searchContent": {
             "loadUrl": "https://123av.com/zh/search?keyword=${key}&page=${pg:-1}"
