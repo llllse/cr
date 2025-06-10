@@ -5,8 +5,11 @@
       "key": "Jable",
       "name": "Jable",
       "type": 3,
+      "quickSearch": 1,
       "searchable": 1,
       "changeable": 1,
+      "filterable": 1,
+      "timeout": 60,
       "style": {
         "type": "rect",
         "ratio": 1.48
@@ -54,8 +57,11 @@
       "key": "netflav",
       "name": "NETFLAV",
       "type": 3,
+      "quickSearch": 1,
       "searchable": 1,
       "changeable": 1,
+      "filterable": 1,
+      "timeout": 60,
       "style": {
         "type": "rect",
         "ratio": 1.48
@@ -103,8 +109,11 @@
       "key": "123av",
       "name": "123AV",
       "type": 3,
+      "quickSearch": 1,
       "searchable": 1,
       "changeable": 1,
+      "filterable": 1,
+      "timeout": 60,
       "style": {
         "type": "rect",
         "ratio": 1.49
@@ -154,8 +163,11 @@
       "key": "MissAV",
       "name": "MissAV",
       "type": 3,
+      "quickSearch": 1,
       "searchable": 1,
       "changeable": 1,
+      "filterable": 1,
+      "timeout": 60,
       "style": {
         "type": "rect",
         "ratio": 1.49
@@ -206,8 +218,11 @@
       "key": "supjav",
       "name": "Supjav",
       "type": 3,
+      "quickSearch": 1,
       "searchable": 1,
       "changeable": 1,
+      "filterable": 1,
+      "timeout": 60,
       "style": {
         "type": "rect",
         "ratio": 1.48
@@ -273,8 +288,11 @@
       "key": "XOJAV",
       "name": "XOJAV",
       "type": 3,
+      "quickSearch": 1,
       "searchable": 1,
       "changeable": 1,
+      "filterable": 1,
+      "timeout": 60,
       "style": {
         "type": "rect",
         "ratio": 1.78
