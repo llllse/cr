@@ -124,10 +124,10 @@ console.log(JSON.stringify(GM_info));
                     },
                     list: []
                 };
-                result.class.map(item=>{
+                result.class.map(item => {
                     $("#nav a").each(function () {
-                        if($(this).attr("href").endsWith(item.type_id)){
-                            item.type_id=$(this).attr("href")
+                        if ($(this).attr("href").endsWith(item.type_id)) {
+                            item.type_id = $(this).attr("href")
                             return false
                         }
                     });
@@ -243,6 +243,8 @@ console.log(JSON.stringify(GM_info));
         if ($("#cf-wrapper").length > 0) {
             console.log("源站不可用:" + $('title').text());
             GM_toastLong("源站不可用:" + $('title').text());
+        } else if ($("#body .btn-primary").text() === "Click here to continue") {
+            window.location = $("#body .btn-primary").attr("href");
         } else {
             result = GmSpider[GMSpiderArgs.fName](...GMSpiderArgs.fArgs);
         }

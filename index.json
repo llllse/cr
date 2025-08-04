@@ -7,7 +7,7 @@
       "type": 3,
       "quickSearch": 1,
       "searchable": 1,
-      "changeable": 1,
+      "changeable": 0,
       "filterable": 1,
       "timeout": 60,
       "style": {
@@ -59,7 +59,7 @@
       "type": 3,
       "quickSearch": 1,
       "searchable": 1,
-      "changeable": 1,
+      "changeable": 0,
       "filterable": 1,
       "timeout": 60,
       "style": {
@@ -111,7 +111,7 @@
       "type": 3,
       "quickSearch": 1,
       "searchable": 1,
-      "changeable": 1,
+      "changeable": 0,
       "filterable": 1,
       "timeout": 60,
       "style": {
@@ -138,11 +138,11 @@
           ]
         },
         "playUrlMatch": [
-          "https://*.skyearth*.xyz/*/v.m3u8"
+          "https://*/v.m3u8"
         ],
         "spider": {
           "homeContent": {
-            "loadUrl": "https://123av.com/zh/"
+            "loadUrl": "https://123av.com/zh/dm9"
           },
           "categoryContent": {
             "loadUrl": "https://123av.com/zh/${tid}?page=${pg:-1}${filter:-}${sort:-}"
@@ -165,7 +165,7 @@
       "type": 3,
       "quickSearch": 1,
       "searchable": 1,
-      "changeable": 1,
+      "changeable": 0,
       "filterable": 1,
       "timeout": 60,
       "style": {
@@ -220,7 +220,7 @@
       "type": 3,
       "quickSearch": 1,
       "searchable": 1,
-      "changeable": 1,
+      "changeable": 0,
       "filterable": 1,
       "timeout": 60,
       "style": {
@@ -290,7 +290,7 @@
       "type": 3,
       "quickSearch": 1,
       "searchable": 1,
-      "changeable": 1,
+      "changeable": 0,
       "filterable": 1,
       "timeout": 60,
       "style": {

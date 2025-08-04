@@ -18,8 +18,8 @@ if (typeof unsafeWindow.gmSpiderRunning === "undefined") {
             GMSpiderArgs.fName = args.shift();
             GMSpiderArgs.fArgs = args;
         } else {
-            GMSpiderArgs.fName = "categoryContent";
-            GMSpiderArgs.fArgs = ["2024?"];
+            GMSpiderArgs.fName = "homeContent";
+            GMSpiderArgs.fArgs = [];
         }
         Object.freeze(GMSpiderArgs);
         let _gotHookFunction = function () {
@@ -48,7 +48,7 @@ if (typeof unsafeWindow.gmSpiderRunning === "undefined") {
             function getVideos(key, result) {
                 const formatData = JSON.parse($("#__NEXT_DATA__").html());
                 let vods = [];
-                formatData.props.initialState[key].docs.forEach(function (media) {
+                formatData.props.initialState[key].docs?.forEach(function (media) {
                     vods.push({
                         vod_id: media.videoId,
                         vod_name: media.title,
