@@ -229,7 +229,7 @@
       },
       "api": "csp_GM",
       "ext": {
-        "userScript": "https://gh-proxy.com/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/gm/supjav.user.js",
+        "userScript": "https://raw.githubusercontent.com/wanganni/yinshiyuan/4829be617197fa6dfd0c7ee0498b23d432fbef56/tv/gm/supjav.user.js",
         "debug": false,
         "webViewSettings": {
           "blockNetworkImage": false,
@@ -333,3 +333,4 @@
   ]
 
 }
+
